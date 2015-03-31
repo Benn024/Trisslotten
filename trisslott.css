@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    background: -webkit-linear-gradient(left, #F4CC1C , #FFDD09 , #F4CC1C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F4CC1C, #FFDD09 , #F4CC1C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F4CC1C, #FFDD09 , #F4CC1C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right, #F4CC1C , #FFDD09 , #F4CC1C); /* Standard syntax (must be last) */;
 }
 #wrapper{
     margin: 0 auto;
@@ -8,7 +11,7 @@ body{
 .trisslogo{
     text-align: center;
     width: 100%;
-    border: thin solid yellow;
+    border: thin solid black;
 }
 .gruppcell{
     height: 500px;
@@ -16,7 +19,58 @@ body{
     float: left;
     margin-top: 20px;
     margin-right: 27px;
-    border: thin solid orange;
+    border: thin solid black;
+    box-shadow: 4px 4px 20px black;
+}
+.bild_header{
+    text-align: center;
+}
+.skrapruta{
+    height: 220px;
+    width: 340px;
+    outline: thin solid black;;
+    margin: 0 auto;
+    position: relative;
+}
+.cirkelBas{
+    border-radius: 50%;
+}
+.extrachans{
+    margin-top: -20px;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-left: 250px;
+}
+.kontrollruta{
+    height: 100px;
+    width: 100px;
+    border: thin solid black;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 20px;
+    float: left;
+}
+.instruktioner{
+    height: 50px;
+    width: 200px;
+    border: thin solid black;
+    float: left;
+    margin-top: 130px;
+    margin-left: 42px;
+    background-color: white;
+}
+.instruktioner:hover{
+    background-color: black;
+    color: white;
+    outline: thin solid white;
+}
+.instruktioner h4, p{
+    text-align: center;
+    padding-top: 7px;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
 }
 .gruppcell h2{
     padding-top: 10px;
