@@ -35,10 +35,10 @@
                     <div class="kontrollruta">
 
                     </div>
-                    <div class="instruktioner">
+                    <button class="instruktioner" onclick="regler">
                         <h4>Instruktioner</h4>
                         <p>Klicka för att lära om reglerna</p>
-                    </div>
+                    </button>
                 </div>
                 <div class="gruppcell nr3">
                     <h2>Statistik</h2>
@@ -47,22 +47,9 @@
         </div>
         
         <script>
-            $(function() {
-                $('#contact').on('click', function() {
-                    if ($(this).hasClass('selected')) {
-                        deselect($(this));
-                    } else {
-                        $(this).addClass('selected');
-                        $('.pop').slideFadeToggle();
-                    }
-                    return false;
-                });
-
-                $('.close').on('click', function() {
-                    deselect($('#contact'));
-                    return false;
-                });
-            });
+            function regler(){
+                window.open("http://www.sweclockers.se");
+            }
         </script>
     </body>
 </html>
