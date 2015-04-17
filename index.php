@@ -35,21 +35,15 @@
                     <div class="kontrollruta">
 
                     </div>
-                    <button class="instruktioner" onclick="regler">
+                    <div class="instruktioner">
                         <h4>Instruktioner</h4>
                         <p>Klicka för att lära om reglerna</p>
-                    </button>
+                    </div>
                 </div>
                 <div class="gruppcell nr3">
                     <h2>Statistik</h2>
                 </div>
             </div>
         </div>
-        
-        <script>
-            function regler(){
-                window.open("http://www.sweclockers.se");
-            }
-        </script>
     </body>
 </html>
