@@ -29,3 +29,10 @@ while($i < 9){
 
 
 var_dump($tmp);
+
+for($n = 0; $n < 9; $n++){    
+    echo $tmp[$n];
+    echo "\n";
+}
+
+
