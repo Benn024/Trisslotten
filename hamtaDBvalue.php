@@ -1,9 +1,9 @@
 <?php
 
-define("DB_SERVER", "berzan.hemsida.eu");
-define("DB_USER", "berzanhe_martin");
+define("DB_SERVER", "berzanappen.se");
+define("DB_USER", "berzanap_martin");
 define("DB_PASSWORD", "snöbjörn");
-define("DB_NAME", "berzanhe_martin");
+define("DB_NAME", "berzanap_martin");
 
 $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8', DB_USER, DB_PASSWORD);
 
