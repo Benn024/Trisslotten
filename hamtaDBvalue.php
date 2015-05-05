@@ -9,8 +9,6 @@ $dbh = new PDO('mysql:dbname=' . DB_NAME . ';host=' . DB_SERVER . ';charset=utf8
 
 //main
 getRandNr($dbh);
-
-
     
 function getRandNr($dbh) {
     
@@ -23,7 +21,7 @@ function getRandNr($dbh) {
 
     $i = 0;
 
-    var_dump($results);
+//    var_dump($results);
 
     while ($i < 9) {
         $slump = rand(0, 8);
@@ -31,7 +29,7 @@ function getRandNr($dbh) {
         $i++;
     }
 
-    var_dump($tmp);
+//    var_dump($tmp);
 
     for ($n = 0; $n < 9; $n++) {
         echo $tmp[$n];
